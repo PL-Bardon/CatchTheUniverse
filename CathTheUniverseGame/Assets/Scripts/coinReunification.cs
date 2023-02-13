@@ -17,6 +17,8 @@ public class coinReunification : MonoBehaviour
 
     public void checkIfCoinAround()
     {
+        //Create an 'false' small circle around the current coin to check if ther is other coin nearby
+        //The objective is to merge them
         RaycastHit2D[] ray = Physics2D.CircleCastAll(this.transform.position, 50, Vector2.down);
         int i = 0;
         while (i < ray.Length && ray[i].transform.gameObject.tag != "Coin") 
@@ -24,6 +26,9 @@ public class coinReunification : MonoBehaviour
         if (i < ray.Length)
         {
             GameObject toMerge = ray[i].transform.gameObject;
+            //Chekc wich id is the biggest between the 2 coins to merge
+            //It's avoid a double merge were the to coin will try to merge with the other
+            //And it will create 2 new coin, so it will not merge properly
             if (ID < toMerge.GetComponent<coinReunification>().ID)
             {
                 Vector3 self = this.transform.position;

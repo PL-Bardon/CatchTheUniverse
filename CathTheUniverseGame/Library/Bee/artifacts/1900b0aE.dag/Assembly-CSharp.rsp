@@ -378,7 +378,6 @@
 "Assets/Scripts/amoMovement.cs"
 "Assets/Scripts/cmaeraLock.cs"
 "Assets/Scripts/coinReunification.cs"
-"Assets/Scripts/deleteAnimation.cs"
 "Assets/Scripts/enemyAttributes.cs"
 "Assets/Scripts/gameOverMenu.cs"
 "Assets/Scripts/KEY/InputManager.cs"
