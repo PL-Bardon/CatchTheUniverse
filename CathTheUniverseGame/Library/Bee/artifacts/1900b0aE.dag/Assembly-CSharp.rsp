@@ -399,8 +399,6 @@
 "Assets/SpaceAssets/Scripts/ParallaxMovement.cs"
 "Assets/SpaceAssets/Scripts/ShootingStar.cs"
 "Assets/SpaceAssets/Scripts/SpaceManager.cs"
-"Assets/SpaceExplosion/Free 2D Impact FX/Script/AnimationHelper.cs"
-"Assets/SpaceExplosion/Free 2D Impact FX/Script/SelfDestruct.cs"
 "Assets/SpaceLaszer/BuiltInRenderPipeline/ExampleScenes/ExampleScripts/CannonBehavior.cs"
 "Assets/SpaceLaszer/BuiltInRenderPipeline/ExampleScenes/ExampleScripts/CreateSinShapedLineStrip.cs"
 "Assets/SpaceLaszer/BuiltInRenderPipeline/ExampleScenes/ExampleScripts/ShotBehavior.cs"

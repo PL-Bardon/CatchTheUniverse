@@ -1,0 +1,4 @@
+What is left to do on the project: 
+
+Sound design
+First scene to contain the MainMenu and de 'Start' button
