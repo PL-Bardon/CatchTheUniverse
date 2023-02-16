@@ -19,4 +19,5 @@ public class spaceShip : MonoBehaviour
 
     public Slider healthBar;
     public GameObject healthBarObject;
+
 }
