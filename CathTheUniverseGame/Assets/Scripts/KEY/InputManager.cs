@@ -28,7 +28,7 @@ public class InputManager : MonoBehaviour
         /*Tis part is to take from the DontDestroyOnLoad method
         an object in the scene, so we get the scene and find in it
         the GameObject we need to get */
-        Scene scene = SceneManager.GetSceneByBuildIndex(0);
+        Scene scene = SceneManager.GetSceneByBuildIndex(1);
         GameObject[] allObject = scene.GetRootGameObjects();
         int i = 0;
         while (i < allObject.Length && allObject[i].name != "Canvas")
@@ -73,7 +73,7 @@ public class InputManager : MonoBehaviour
             Destroy(this);
         }
         DontDestroyOnLoad(this.gameObject);
-        Scene scene = SceneManager.GetSceneByBuildIndex(0);
+        Scene scene = SceneManager.GetSceneByBuildIndex(1);
         GameObject[] allObject = scene.GetRootGameObjects();
         int i = 0;
         while (i < allObject.Length && allObject[i].name != "Canvas")
@@ -89,7 +89,7 @@ public class InputManager : MonoBehaviour
     {
         if (settingsPannel == null)
         {
-            Scene scene = SceneManager.GetSceneByBuildIndex(0);
+            Scene scene = SceneManager.GetSceneByBuildIndex(1);
             GameObject[] allObject = scene.GetRootGameObjects();
             int i = 0;
             while (i < allObject.Length && allObject[i].name != "Canvas")

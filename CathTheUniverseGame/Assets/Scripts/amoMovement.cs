@@ -6,6 +6,24 @@ public class amoMovement : MonoBehaviour
 {
     public float damage;
     public GameObject explosion;
+    SpriteRenderer sr;
+
+    void Start()
+    {
+        sr = this.gameObject.GetComponent<SpriteRenderer>();
+        if (damage <= 100)
+        {
+            sr.color = Color.white;
+        }
+        else if (damage <= 200)
+        {
+            sr.color = Color.cyan;
+        }
+        else
+        {
+            sr.color = Color.blue;
+        }
+    }
 
     void Update()
     {

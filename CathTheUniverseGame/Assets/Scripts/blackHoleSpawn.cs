@@ -18,7 +18,7 @@ public class blackHoleSpawn : MonoBehaviour
     {
         currentTime += Time.deltaTime;
         
-        if (currentTime > 2) //20
+        if (currentTime > 2 && Player != null) //20
         {
             currentTime = 0;
             int x;

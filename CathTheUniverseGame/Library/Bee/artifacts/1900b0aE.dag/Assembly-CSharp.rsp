@@ -389,6 +389,7 @@
 "Assets/Scripts/gameOverMenu.cs"
 "Assets/Scripts/KEY/InputManager.cs"
 "Assets/Scripts/laserMovement.cs"
+"Assets/Scripts/Menu/playGame.cs"
 "Assets/Scripts/MenuManager.cs"
 "Assets/Scripts/playerAttributes.cs"
 "Assets/Scripts/playerSkills.cs"
