@@ -1,4 +1,5 @@
 What is left to do on the project: 
 
+Change color of bullet, depending on the damage it does
 Sound design
 First scene to contain the MainMenu and de 'Start' button
