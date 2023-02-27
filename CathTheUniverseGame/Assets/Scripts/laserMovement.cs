@@ -9,11 +9,14 @@ public class laserMovement : MonoBehaviour
 
     void Start()
     {
+        //Get the player's script to be able to use his damage and his attack speed
         PA = GameObject.FindWithTag("Player").GetComponent<playerAttributes>();
     }
 
     void OnTriggerStay2D(Collider2D other)
     {
+        //If the laser hit an enemy, it will deal damage to it.
+        //If it's hit a bullet, the laser will destroy it.
         if (other.transform.gameObject.tag == "Enemy")
         {
             float newDamage = (1/PA.speedShoot) - 9F + (PA.damageBullet/5);

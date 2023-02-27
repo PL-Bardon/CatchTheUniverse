@@ -10,11 +10,13 @@ ScriptsOnlyBuild:
     - RandomSprite
     - SettingsManager
     - ShootingStar
+    - Starts
     - VolumetricLines.VolumetricLineBehavior
     - amoMovement
+    - blackHoleAttributes
+    - blackHoleSpawn
     - cmaeraLock
     - coinReunification
-    - deleteAnimation
     - enemyAttributes
     - gameOverMenu
     - laserMovement
@@ -22,11 +24,13 @@ ScriptsOnlyBuild:
     - playerSkills
     - randomSpawnEnemy
     - rocketSkill
+    - rotation
     - scoreHistory
     Unity.2D.Animation.Editor.dll:
     - UnityEditor.U2D.Animation.BoneGizmo
     Unity.2D.IK.Editor.dll:
     - UnityEditor.U2D.IK.IKEditorManager
+    - UnityEditor.U2D.IK.IKGizmos
     Unity.2D.Tilemap.Editor.dll:
     - UnityEditor.Tilemaps.GridBrush
     - UnityEditor.Tilemaps.GridPaintingState
@@ -49,7 +53,6 @@ ScriptsOnlyBuild:
     - TMPro.TMP_Settings
     - TMPro.TMP_SpriteAsset
     - TMPro.TMP_StyleSheet
-    - TMPro.TMP_SubMeshUI
     - TMPro.TextMeshProUGUI
     UnityEditor.TestRunner.dll:
     - UnityEditor.TestTools.TestRunner.Api.CallbacksHolder
@@ -65,8 +68,8 @@ ScriptsOnlyBuild:
     - UnityEngine.UI.GridLayoutGroup
     - UnityEngine.UI.HorizontalLayoutGroup
     - UnityEngine.UI.Image
-    - UnityEngine.UI.LayoutElement
     - UnityEngine.UI.Slider
+    - UnityEngine.UI.Text
     - UnityEngine.UI.VerticalLayoutGroup
   serializedClasses:
     Unity.TextMeshPro:
@@ -100,11 +103,15 @@ ScriptsOnlyBuild:
     - UnityEngine.UI.AnimationTriggers
     - UnityEngine.UI.Button/ButtonClickedEvent
     - UnityEngine.UI.ColorBlock
+    - UnityEngine.UI.FontData
     - UnityEngine.UI.MaskableGraphic/CullStateChangedEvent
     - UnityEngine.UI.Navigation
     - UnityEngine.UI.Slider/SliderEvent
     - UnityEngine.UI.SpriteState
   methodsToPreserve:
+  - assembly: Assembly-CSharp
+    fullTypeName: Starts
+    methodName: Play
   - assembly: Assembly-CSharp
     fullTypeName: SettingsManager
     methodName: changeKeybind
@@ -173,8 +180,6 @@ ScriptsOnlyBuild:
       Script: {instanceID: 0}
     - Class: 48
       Script: {instanceID: 0}
-    - Class: 49
-      Script: {instanceID: 0}
     - Class: 50
       Script: {instanceID: 0}
     - Class: 58
@@ -194,85 +199,79 @@ ScriptsOnlyBuild:
     - Class: 104
       Script: {instanceID: 0}
     - Class: 114
-      Script: {instanceID: 1630}
+      Script: {instanceID: 1632}
     - Class: 114
-      Script: {instanceID: 1774}
+      Script: {instanceID: 2540}
     - Class: 114
-      Script: {instanceID: 2354}
+      Script: {instanceID: 2872}
     - Class: 114
-      Script: {instanceID: 2534}
+      Script: {instanceID: 2956}
     - Class: 114
-      Script: {instanceID: 2866}
+      Script: {instanceID: 2964}
     - Class: 114
-      Script: {instanceID: 2950}
+      Script: {instanceID: 3138}
     - Class: 114
-      Script: {instanceID: 2958}
+      Script: {instanceID: 3496}
     - Class: 114
-      Script: {instanceID: 3132}
+      Script: {instanceID: 3792}
     - Class: 114
-      Script: {instanceID: 3490}
+      Script: {instanceID: 3980}
     - Class: 114
-      Script: {instanceID: 3786}
+      Script: {instanceID: 4170}
     - Class: 114
-      Script: {instanceID: 3974}
+      Script: {instanceID: 4530}
     - Class: 114
-      Script: {instanceID: 4164}
+      Script: {instanceID: 5100}
     - Class: 114
-      Script: {instanceID: 4524}
+      Script: {instanceID: 5112}
     - Class: 114
-      Script: {instanceID: 4782}
+      Script: {instanceID: 5158}
     - Class: 114
-      Script: {instanceID: 4996}
+      Script: {instanceID: 5464}
     - Class: 114
-      Script: {instanceID: 5094}
+      Script: {instanceID: 5604}
     - Class: 114
-      Script: {instanceID: 5116}
+      Script: {instanceID: 5816}
     - Class: 114
-      Script: {instanceID: 5150}
+      Script: {instanceID: 5938}
     - Class: 114
-      Script: {instanceID: 5200}
+      Script: {instanceID: 5950}
     - Class: 114
-      Script: {instanceID: 5458}
+      Script: {instanceID: 6046}
     - Class: 114
-      Script: {instanceID: 5598}
+      Script: {instanceID: 6640}
     - Class: 114
-      Script: {instanceID: 5808}
+      Script: {instanceID: 6790}
     - Class: 114
-      Script: {instanceID: 5930}
+      Script: {instanceID: 6992}
     - Class: 114
-      Script: {instanceID: 5942}
+      Script: {instanceID: 7000}
     - Class: 114
-      Script: {instanceID: 6038}
+      Script: {instanceID: 7036}
     - Class: 114
-      Script: {instanceID: 6628}
+      Script: {instanceID: 7278}
     - Class: 114
-      Script: {instanceID: 6778}
+      Script: {instanceID: 7414}
     - Class: 114
-      Script: {instanceID: 6980}
+      Script: {instanceID: 7954}
     - Class: 114
-      Script: {instanceID: 6988}
+      Script: {instanceID: 8092}
     - Class: 114
-      Script: {instanceID: 7024}
+      Script: {instanceID: 8194}
     - Class: 114
-      Script: {instanceID: 7400}
+      Script: {instanceID: 8336}
     - Class: 114
-      Script: {instanceID: 7942}
+      Script: {instanceID: 8456}
     - Class: 114
-      Script: {instanceID: 8080}
+      Script: {instanceID: 8500}
     - Class: 114
-      Script: {instanceID: 8182}
+      Script: {instanceID: 8748}
     - Class: 114
-      Script: {instanceID: 8324}
+      Script: {instanceID: 8926}
     - Class: 114
-      Script: {instanceID: 8444}
+      Script: {instanceID: 9036}
     - Class: 114
-      Script: {instanceID: 8488}
-    - Class: 114
-      Script: {instanceID: 8912}
-    - Class: 114
-      Script: {instanceID: 9022}
-    - Class: 114
-      Script: {instanceID: 9308}
+      Script: {instanceID: 9322}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -284,6 +283,67 @@ ScriptsOnlyBuild:
     - Class: 198
       Script: {instanceID: 0}
     - Class: 199
+      Script: {instanceID: 0}
+    - Class: 212
+      Script: {instanceID: 0}
+    - Class: 213
+      Script: {instanceID: 0}
+    - Class: 222
+      Script: {instanceID: 0}
+    - Class: 223
+      Script: {instanceID: 0}
+    - Class: 224
+      Script: {instanceID: 0}
+    Assets/Scenes/StartGame.unity:
+    - Class: 1
+      Script: {instanceID: 0}
+    - Class: 4
+      Script: {instanceID: 0}
+    - Class: 20
+      Script: {instanceID: 0}
+    - Class: 21
+      Script: {instanceID: 0}
+    - Class: 28
+      Script: {instanceID: 0}
+    - Class: 48
+      Script: {instanceID: 0}
+    - Class: 49
+      Script: {instanceID: 0}
+    - Class: 81
+      Script: {instanceID: 0}
+    - Class: 104
+      Script: {instanceID: 0}
+    - Class: 114
+      Script: {instanceID: 1632}
+    - Class: 114
+      Script: {instanceID: 2344}
+    - Class: 114
+      Script: {instanceID: 2360}
+    - Class: 114
+      Script: {instanceID: 2872}
+    - Class: 114
+      Script: {instanceID: 3138}
+    - Class: 114
+      Script: {instanceID: 3496}
+    - Class: 114
+      Script: {instanceID: 4786}
+    - Class: 114
+      Script: {instanceID: 5124}
+    - Class: 114
+      Script: {instanceID: 6046}
+    - Class: 114
+      Script: {instanceID: 6392}
+    - Class: 114
+      Script: {instanceID: 6790}
+    - Class: 114
+      Script: {instanceID: 7414}
+    - Class: 115
+      Script: {instanceID: 0}
+    - Class: 128
+      Script: {instanceID: 0}
+    - Class: 157
+      Script: {instanceID: 0}
+    - Class: 196
       Script: {instanceID: 0}
     - Class: 212
       Script: {instanceID: 0}
@@ -358,10 +418,22 @@ ScriptsOnlyBuild:
     className: UnityOnMouseExitMessageListener
   - hash:
       serializedVersion: 2
+      Hash: 002020d0363e1d2fc6726436c90292ce
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: particleAttractorSpherical
+  - hash:
+      serializedVersion: 2
       Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
     assemblyName: Unity.VisualScripting.Core.dll
     namespaceName: Unity.VisualScripting
     className: UnityOnTriggerEnterMessageListener
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: Starts
   - hash:
       serializedVersion: 2
       Hash: 800c50acba124432abb4cf0d47202e06
@@ -760,12 +832,6 @@ ScriptsOnlyBuild:
     className: SignalReceiver
   - hash:
       serializedVersion: 2
-      Hash: 519da9f564da901fb5e2d7633356de91
-    assemblyName: Assembly-CSharp.dll
-    namespaceName: InguzPings
-    className: AnimationHelper
-  - hash:
-      serializedVersion: 2
       Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
     assemblyName: Unity.VisualScripting.Core.dll
     namespaceName: Unity.VisualScripting
@@ -814,10 +880,22 @@ ScriptsOnlyBuild:
     className: TMP_SubMeshUI
   - hash:
       serializedVersion: 2
+      Hash: afc5b93a7b192de2dcb3832fe35a5c7e
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: particleAttractorSelf
+  - hash:
+      serializedVersion: 2
       Hash: 467b2bf152bf256d6ef21809aff39586
     assemblyName: Assembly-CSharp.dll
     namespaceName: 
     className: InputManager
+  - hash:
+      serializedVersion: 2
+      Hash: 343cc967a4d3e4bff741a28dab2e6ae7
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: blackHoleSpawn
   - hash:
       serializedVersion: 2
       Hash: fd68d84f33fad85aac38f2739c0ee270
@@ -842,12 +920,6 @@ ScriptsOnlyBuild:
     assemblyName: Unity.2D.Tilemap.Extras.dll
     namespaceName: UnityEngine.Tilemaps
     className: AnimatedTile
-  - hash:
-      serializedVersion: 2
-      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
-    assemblyName: Assembly-CSharp.dll
-    namespaceName: 
-    className: deleteAnimation
   - hash:
       serializedVersion: 2
       Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
@@ -890,6 +962,12 @@ ScriptsOnlyBuild:
     assemblyName: UnityEngine.UI.dll
     namespaceName: UnityEngine.UI
     className: GridLayoutGroup
+  - hash:
+      serializedVersion: 2
+      Hash: c6a8be3e84b3fa9e24a7cf840d382ff5
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: proceduralGeneration
   - hash:
       serializedVersion: 2
       Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
@@ -976,6 +1054,12 @@ ScriptsOnlyBuild:
     className: TMP_FontAsset
   - hash:
       serializedVersion: 2
+      Hash: 002020d0363e1d2fc6726436c90292ce
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: particleAttractorLinear
+  - hash:
+      serializedVersion: 2
       Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
     assemblyName: Unity.VisualScripting.Core.dll
     namespaceName: Unity.VisualScripting
@@ -1010,6 +1094,12 @@ ScriptsOnlyBuild:
     assemblyName: UnityEngine.UI.dll
     namespaceName: UnityEngine.UI
     className: Text
+  - hash:
+      serializedVersion: 2
+      Hash: 002020d0363e1d2fc6726436c90292ce
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: particleAttractorMove
   - hash:
       serializedVersion: 2
       Hash: 2574ac7d50617d23cdefe4ad22f5e1ad
@@ -1064,6 +1154,12 @@ ScriptsOnlyBuild:
     assemblyName: Unity.VisualScripting.Core.dll
     namespaceName: Unity.VisualScripting
     className: UnityOnMouseUpAsButtonMessageListener
+  - hash:
+      serializedVersion: 2
+      Hash: 11bc4cf5abd9bddccba3a6b5f3574ec4
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: blackHoleAttributes
   - hash:
       serializedVersion: 2
       Hash: e09e8bebc0fcd32bb8af1287a6b44816
@@ -1142,12 +1238,6 @@ ScriptsOnlyBuild:
     assemblyName: Unity.Timeline.dll
     namespaceName: UnityEngine.Timeline
     className: PlayableTrack
-  - hash:
-      serializedVersion: 2
-      Hash: f4edb8e98735501349506a15a3fa9baa
-    assemblyName: Assembly-CSharp.dll
-    namespaceName: InguzPings
-    className: SelfDestruct
   - hash:
       serializedVersion: 2
       Hash: 3164bc883ff663a5cdb32d1ef7e7c0c5
@@ -1294,6 +1384,12 @@ ScriptsOnlyBuild:
     className: ControlTrack
   - hash:
       serializedVersion: 2
+      Hash: 31bbe517b13ca59c4caca773b243a4c3
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: rotation
+  - hash:
+      serializedVersion: 2
       Hash: 040dd48e3a027d5424519a5fa2009df4
     assemblyName: UnityEngine.UI.dll
     namespaceName: UnityEngine.UI
@@ -1414,5 +1510,6 @@ ScriptsOnlyBuild:
     className: UnityOnSliderValueChangedMessageListener
   platform: 19
   scenePathNames:
+  - Assets/Scenes/StartGame.unity
   - Assets/Scenes/MySpaceShipGame.unity
   playerPath: C:/Users/bardo/Downloads/TEST/CathTheUniverse.exe

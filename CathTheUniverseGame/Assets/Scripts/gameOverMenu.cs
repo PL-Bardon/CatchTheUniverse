@@ -15,8 +15,9 @@ public class gameOverMenu : MonoBehaviour
 
     void Start()
     {
+        //Get the object that is 'DontDestroyOnLoad' (wich explain this tag :) ) 
         _scoreHistory = GameObject.FindWithTag("veryimportant").GetComponent<scoreHistory>();
-        endPannel.SetActive(false);
+        endPannel.SetActive(false); //Desable the pannel
     }
 
     public void showEndPannel()

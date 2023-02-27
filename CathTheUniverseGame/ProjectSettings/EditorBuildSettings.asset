@@ -5,9 +5,9 @@ EditorBuildSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 2
   m_Scenes:
-  - enabled: 0
-    path: Assets/Scenes/MenuScene.unity
-    guid: 6b5d131d2aca3594096daf8efdc14c48
+  - enabled: 1
+    path: Assets/Scenes/StartGame.unity
+    guid: f5bec75f2e101e94c98de0332d39cfcb
   - enabled: 1
     path: Assets/Scenes/MySpaceShipGame.unity
     guid: 2cda990e2423bbf4892e6590ba056729
