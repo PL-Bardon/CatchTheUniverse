@@ -15,7 +15,7 @@ C:/Users/bardo/OneDrive/Documents/s2-project/Fpt Unity/CatchTheUniverse/CathTheU
 -logFile
 Logs/AssetImportWorker3.log
 -srvPort
-55729
+52446
 Successfully changed project path to: C:/Users/bardo/OneDrive/Documents/s2-project/Fpt Unity/CatchTheUniverse/CathTheUniverseGame
 C:/Users/bardo/OneDrive/Documents/s2-project/Fpt Unity/CatchTheUniverse/CathTheUniverseGame
 [UnityMemory] Configuration Parameters - Can be set up in boot.config
@@ -47,7 +47,7 @@ C:/Users/bardo/OneDrive/Documents/s2-project/Fpt Unity/CatchTheUniverse/CathTheU
     "memorysetup-temp-allocator-size-cloud-worker=32768"
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gfx=262144"
-Refreshing native plugins compatible for Editor in 102.41 ms, found 4 plugins.
+Refreshing native plugins compatible for Editor in 111.01 ms, found 4 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2021.3.6f1 (7da38d85baf6)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2021.3.6f1/Editor/Data/Resources/UnitySubsystems
@@ -63,97 +63,97 @@ Initialize mono
 Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2021.3.6f1/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2021.3.6f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
 Mono config path = 'C:/Program Files/Unity/Hub/Editor/2021.3.6f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56476
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56932
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.3.6f1/Editor/Data/PlaybackEngines/AndroidPlayer/UnityEditor.Android.Extensions.dll
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.3.6f1/Editor/Data/PlaybackEngines/iOSSupport/UnityEditor.iOS.Extensions.dll
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.3.6f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.007560 seconds.
+Registered in 0.008400 seconds.
 Native extension for WindowsStandalone target not found
 [usbmuxd] Start listen thread
 [usbmuxd] Listen thread started
 Native extension for iOS target not found
 Native extension for Android target not found
-Refreshing native plugins compatible for Editor in 99.41 ms, found 4 plugins.
+Refreshing native plugins compatible for Editor in 99.28 ms, found 4 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  0.690 seconds
+- Completed reload, in  0.698 seconds
 Domain Reload Profiling:
-	ReloadAssembly (691ms)
-		BeginReloadAssembly (71ms)
+	ReloadAssembly (699ms)
+		BeginReloadAssembly (74ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (0ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
 			CreateAndSetChildDomain (1ms)
-		EndReloadAssembly (509ms)
-			LoadAssemblies (69ms)
+		EndReloadAssembly (512ms)
+			LoadAssemblies (73ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (113ms)
+			SetupTypeCache (112ms)
 			ReleaseScriptCaches (0ms)
-			RebuildScriptCaches (32ms)
+			RebuildScriptCaches (29ms)
 			SetupLoadedEditorAssemblies (315ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (70ms)
+				InitializePlatformSupportModulesInManaged (67ms)
 				SetLoadedEditorAssemblies (0ms)
 				RefreshPlugins (99ms)
 				BeforeProcessingInitializeOnLoad (1ms)
-				ProcessInitializeOnLoadAttributes (97ms)
-				ProcessInitializeOnLoadMethodAttributes (46ms)
+				ProcessInitializeOnLoadAttributes (101ms)
+				ProcessInitializeOnLoadMethodAttributes (45ms)
 				AfterProcessingInitializeOnLoad (0ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
 			AwakeInstancesAfterBackupRestoration (0ms)
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.006606 seconds.
+Registered in 0.006784 seconds.
 Begin MonoManager ReloadAssembly
 Symbol file LoadedFromMemory doesn't match image C:\Users\bardo\OneDrive\Documents\s2-project\Fpt Unity\CatchTheUniverse\CathTheUniverseGame\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
 Symbol file LoadedFromMemory doesn't match image C:\Users\bardo\OneDrive\Documents\s2-project\Fpt Unity\CatchTheUniverse\CathTheUniverseGame\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
 Native extension for WindowsStandalone target not found
 Native extension for iOS target not found
 Native extension for Android target not found
-Refreshing native plugins compatible for Editor in 93.08 ms, found 4 plugins.
+Refreshing native plugins compatible for Editor in 94.69 ms, found 4 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  6.097 seconds
+- Completed reload, in  1.310 seconds
 Domain Reload Profiling:
-	ReloadAssembly (6098ms)
-		BeginReloadAssembly (228ms)
+	ReloadAssembly (1311ms)
+		BeginReloadAssembly (221ms)
 			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (6ms)
+			DisableScriptedObjects (5ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (133ms)
-		EndReloadAssembly (5661ms)
-			LoadAssemblies (3805ms)
+			CreateAndSetChildDomain (124ms)
+		EndReloadAssembly (969ms)
+			LoadAssemblies (95ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (407ms)
+			SetupTypeCache (262ms)
 			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (65ms)
-			SetupLoadedEditorAssemblies (1326ms)
+			RebuildScriptCaches (61ms)
+			SetupLoadedEditorAssemblies (505ms)
 				LogAssemblyErrors (0ms)
 				InitializePlatformSupportModulesInManaged (24ms)
 				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (93ms)
-				BeforeProcessingInitializeOnLoad (106ms)
-				ProcessInitializeOnLoadAttributes (248ms)
-				ProcessInitializeOnLoadMethodAttributes (847ms)
-				AfterProcessingInitializeOnLoad (8ms)
+				RefreshPlugins (95ms)
+				BeforeProcessingInitializeOnLoad (104ms)
+				ProcessInitializeOnLoadAttributes (230ms)
+				ProcessInitializeOnLoadMethodAttributes (45ms)
+				AfterProcessingInitializeOnLoad (7ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
 			AwakeInstancesAfterBackupRestoration (5ms)
 Platform modules already initialized, skipping
 ========================================================================
 Worker process is ready to serve import requests
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.08 seconds
-Refreshing native plugins compatible for Editor in 0.95 ms, found 4 plugins.
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.07 seconds
+Refreshing native plugins compatible for Editor in 0.92 ms, found 4 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 4117 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 38 unused Assets / (55.4 KB). Loaded Objects now: 4581.
-Memory consumption went from 158.3 MB to 158.3 MB.
-Total: 4.932900 ms (FindLiveObjects: 0.545300 ms CreateObjectMapping: 0.257400 ms MarkObjects: 3.994200 ms  DeleteObjects: 0.134400 ms)
+Unloading 4116 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 38 unused Assets / (55.5 KB). Loaded Objects now: 4580.
+Memory consumption went from 158.3 MB to 158.2 MB.
+Total: 3.975600 ms (FindLiveObjects: 0.521300 ms CreateObjectMapping: 0.168100 ms MarkObjects: 3.173300 ms  DeleteObjects: 0.111200 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
@@ -167,63 +167,123 @@ AssetImportParameters requested are different than current active one (requested
   custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Import Request.
-  Time since last request: 843741.248210 seconds.
-  path: Assets/Scripts/spaceShip.cs
-  artifactKey: Guid(6933bcd096c256740afcfdacf3da4ada) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/spaceShip.cs using Guid(6933bcd096c256740afcfdacf3da4ada) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '63a81510722d952d40591d99761db9a6') in 0.039322 seconds 
+  Time since last request: 846437.062202 seconds.
+  path: Assets/Basic_RPG_Icons/Skills/02_Fire.png
+  artifactKey: Guid(9725fb87facc42a4984598500f76e0fb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Basic_RPG_Icons/Skills/02_Fire.png using Guid(9725fb87facc42a4984598500f76e0fb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2ad19fe639244ea01881c61feb111000') in 0.143733 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000032 seconds.
-  path: Assets/Scripts/Menu/playGame.cs
-  artifactKey: Guid(0575815139ba9fc4eb81d8175d439edc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/Menu/playGame.cs using Guid(0575815139ba9fc4eb81d8175d439edc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c24d5662a8e50b344b841039dd3ec73d') in 0.009203 seconds 
+  Time since last request: 0.000037 seconds.
+  path: Assets/Basic_RPG_Icons/Skills/07_Lightning_Strike.png
+  artifactKey: Guid(4637953d65a24364aab3372a525b9ed2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Basic_RPG_Icons/Skills/07_Lightning_Strike.png using Guid(4637953d65a24364aab3372a525b9ed2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f4c6a8ca386ddeca0f03345a18d044e4') in 0.031410 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000056 seconds.
+  path: Assets/Basic_RPG_Icons/Skills/14_Summon.png
+  artifactKey: Guid(1d6d7bf04d2101c4ea04650b6d6b911b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Basic_RPG_Icons/Skills/14_Summon.png using Guid(1d6d7bf04d2101c4ea04650b6d6b911b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '298c07e6e63313c9c0fd40c6595443e8') in 0.029960 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000059 seconds.
+  path: Assets/Basic_RPG_Icons/Skills/13_Healing_spell_2.png
+  artifactKey: Guid(2e350bcef09f70943ba03de78d8c063a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Basic_RPG_Icons/Skills/13_Healing_spell_2.png using Guid(2e350bcef09f70943ba03de78d8c063a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'de91056dfbc44dc5d71132d308a4c8d9') in 0.032928 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000061 seconds.
+  path: Assets/Basic_RPG_Icons/Skills/04_Ice_Nova.png
+  artifactKey: Guid(6f98b3e70c3ad8a48a0396785dad48e8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Basic_RPG_Icons/Skills/04_Ice_Nova.png using Guid(6f98b3e70c3ad8a48a0396785dad48e8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7d9fea9fd05f6ea5621b5dce9fdf8433') in 0.032837 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000071 seconds.
+  path: Assets/Basic_RPG_Icons/Skills/08_Blink.png
+  artifactKey: Guid(62ce59ce09148c847b198159a3abc9f6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Basic_RPG_Icons/Skills/08_Blink.png using Guid(62ce59ce09148c847b198159a3abc9f6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a328acc7bb5ee67b3658e9dacac117ab') in 0.036159 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000035 seconds.
+  path: Assets/Basic_RPG_Icons/Skills/16_life_drain.png
+  artifactKey: Guid(c1d35b40e3fb0f9438f23087432d9765) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Basic_RPG_Icons/Skills/16_life_drain.png using Guid(c1d35b40e3fb0f9438f23087432d9765) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'efb16aee8a4f2498f4cc3a35a60ce224') in 0.032409 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 10.885401 seconds.
+  path: Assets/Basic_RPG_Icons/Skills/No_bg/03_Fire_rain_nobg.png
+  artifactKey: Guid(9d6f02363bab23a439a20c03f5cbb323) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Basic_RPG_Icons/Skills/No_bg/03_Fire_rain_nobg.png using Guid(9d6f02363bab23a439a20c03f5cbb323) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e60d3a10291abbc4eda6a8649537bec3') in 0.029257 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000037 seconds.
+  path: Assets/Basic_RPG_Icons/Skills/No_bg/08_Blink_nobg.png
+  artifactKey: Guid(dadfe4db9fb8c594abf23febe42df5ef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Basic_RPG_Icons/Skills/No_bg/08_Blink_nobg.png using Guid(dadfe4db9fb8c594abf23febe42df5ef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cf8259b3ef93c77d31115a2dd04d5062') in 0.032174 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000047 seconds.
+  path: Assets/Basic_RPG_Icons/Skills/No_bg/11_Melee_Cone_nobg.png
+  artifactKey: Guid(8d43b83d0338c994db662371b1cdbbc8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Basic_RPG_Icons/Skills/No_bg/11_Melee_Cone_nobg.png using Guid(8d43b83d0338c994db662371b1cdbbc8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ad5a6e68d0dcfe1e708cbfac416f3177') in 0.034040 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000036 seconds.
+  path: Assets/Basic_RPG_Icons/Skills/No_bg/15_curse_nobg.png
+  artifactKey: Guid(7d0f73aed89f4e146b939c2b5afbcb89) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Basic_RPG_Icons/Skills/No_bg/15_curse_nobg.png using Guid(7d0f73aed89f4e146b939c2b5afbcb89) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bda380de81dd8de050eedce4d27bba2d') in 0.040006 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000046 seconds.
+  path: Assets/Basic_RPG_Icons/Skills/No_bg/14_Summon_nobg.png
+  artifactKey: Guid(1c74d1dcff866ee48a68842355840c90) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Basic_RPG_Icons/Skills/No_bg/14_Summon_nobg.png using Guid(1c74d1dcff866ee48a68842355840c90) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'eba1390644189f8f91ec529cd06f8dd0') in 0.033542 seconds 
 ========================================================================
 Received Prepare
 Registering precompiled user dll's ...
-Registered in 0.007486 seconds.
+Registered in 0.007358 seconds.
 Begin MonoManager ReloadAssembly
 Symbol file LoadedFromMemory doesn't match image C:\Users\bardo\OneDrive\Documents\s2-project\Fpt Unity\CatchTheUniverse\CathTheUniverseGame\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
 Symbol file LoadedFromMemory doesn't match image C:\Users\bardo\OneDrive\Documents\s2-project\Fpt Unity\CatchTheUniverse\CathTheUniverseGame\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
 Native extension for WindowsStandalone target not found
 Native extension for iOS target not found
 Native extension for Android target not found
-Refreshing native plugins compatible for Editor in 0.90 ms, found 4 plugins.
+Refreshing native plugins compatible for Editor in 1.35 ms, found 4 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.043 seconds
+- Completed reload, in  1.308 seconds
 Domain Reload Profiling:
-	ReloadAssembly (1044ms)
-		BeginReloadAssembly (142ms)
+	ReloadAssembly (1309ms)
+		BeginReloadAssembly (152ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (7ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (43ms)
-		EndReloadAssembly (795ms)
-			LoadAssemblies (93ms)
+			CreateAndSetChildDomain (55ms)
+		EndReloadAssembly (1034ms)
+			LoadAssemblies (89ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (241ms)
-			ReleaseScriptCaches (2ms)
-			RebuildScriptCaches (47ms)
-			SetupLoadedEditorAssemblies (368ms)
+			SetupTypeCache (283ms)
+			ReleaseScriptCaches (3ms)
+			RebuildScriptCaches (73ms)
+			SetupLoadedEditorAssemblies (493ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (40ms)
-				SetLoadedEditorAssemblies (0ms)
+				InitializePlatformSupportModulesInManaged (42ms)
+				SetLoadedEditorAssemblies (1ms)
 				RefreshPlugins (1ms)
-				BeforeProcessingInitializeOnLoad (86ms)
-				ProcessInitializeOnLoadAttributes (195ms)
-				ProcessInitializeOnLoadMethodAttributes (38ms)
-				AfterProcessingInitializeOnLoad (7ms)
+				BeforeProcessingInitializeOnLoad (98ms)
+				ProcessInitializeOnLoadAttributes (276ms)
+				ProcessInitializeOnLoadMethodAttributes (63ms)
+				AfterProcessingInitializeOnLoad (12ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (8ms)
+			AwakeInstancesAfterBackupRestoration (15ms)
 Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 2.64 ms, found 4 plugins.
+Refreshing native plugins compatible for Editor in 3.27 ms, found 4 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 4085 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 26 unused Assets / (24.6 KB). Loaded Objects now: 4583.
-Memory consumption went from 155.7 MB to 155.6 MB.
-Total: 4.233400 ms (FindLiveObjects: 0.483400 ms CreateObjectMapping: 0.217700 ms MarkObjects: 3.475900 ms  DeleteObjects: 0.053600 ms)
+Unloading 25 unused Assets / (24.6 KB). Loaded Objects now: 4589.
+Memory consumption went from 160.0 MB to 160.0 MB.
+Total: 5.328200 ms (FindLiveObjects: 0.612600 ms CreateObjectMapping: 0.181200 ms MarkObjects: 4.409200 ms  DeleteObjects: 0.122300 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
@@ -235,3 +295,7 @@ AssetImportParameters requested are different than current active one (requested
   custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
   custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
   custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
+AssetImportWorker is now disconnected from the server
+Process exiting
+Exiting without the bug reporter. Application will terminate with return code 0

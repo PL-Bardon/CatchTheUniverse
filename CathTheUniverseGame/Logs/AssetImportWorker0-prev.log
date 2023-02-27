@@ -15,7 +15,7 @@ C:/Users/bardo/OneDrive/Documents/s2-project/Fpt Unity/CatchTheUniverse/CathTheU
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-55729
+52446
 Successfully changed project path to: C:/Users/bardo/OneDrive/Documents/s2-project/Fpt Unity/CatchTheUniverse/CathTheUniverseGame
 C:/Users/bardo/OneDrive/Documents/s2-project/Fpt Unity/CatchTheUniverse/CathTheUniverseGame
 [UnityMemory] Configuration Parameters - Can be set up in boot.config
@@ -47,7 +47,7 @@ C:/Users/bardo/OneDrive/Documents/s2-project/Fpt Unity/CatchTheUniverse/CathTheU
     "memorysetup-temp-allocator-size-cloud-worker=32768"
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gfx=262144"
-Refreshing native plugins compatible for Editor in 291.66 ms, found 4 plugins.
+Refreshing native plugins compatible for Editor in 109.68 ms, found 4 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2021.3.6f1 (7da38d85baf6)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2021.3.6f1/Editor/Data/Resources/UnitySubsystems
@@ -63,49 +63,211 @@ Initialize mono
 Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2021.3.6f1/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2021.3.6f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
 Mono config path = 'C:/Program Files/Unity/Hub/Editor/2021.3.6f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56360
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56344
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.3.6f1/Editor/Data/PlaybackEngines/AndroidPlayer/UnityEditor.Android.Extensions.dll
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.3.6f1/Editor/Data/PlaybackEngines/iOSSupport/UnityEditor.iOS.Extensions.dll
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.3.6f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.270454 seconds.
+Registered in 0.007945 seconds.
 Native extension for WindowsStandalone target not found
 [usbmuxd] Start listen thread
 [usbmuxd] Listen thread started
 Native extension for iOS target not found
 Native extension for Android target not found
-Refreshing native plugins compatible for Editor in 94.10 ms, found 4 plugins.
+Refreshing native plugins compatible for Editor in 103.06 ms, found 4 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  4.981 seconds
+- Completed reload, in  0.844 seconds
 Domain Reload Profiling:
-	ReloadAssembly (4982ms)
-		BeginReloadAssembly (3343ms)
+	ReloadAssembly (845ms)
+		BeginReloadAssembly (112ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (0ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
 			CreateAndSetChildDomain (1ms)
-		EndReloadAssembly (1173ms)
-			LoadAssemblies (3347ms)
+		EndReloadAssembly (604ms)
+			LoadAssemblies (110ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (674ms)
+			SetupTypeCache (164ms)
 			ReleaseScriptCaches (0ms)
-			RebuildScriptCaches (29ms)
-			SetupLoadedEditorAssemblies (413ms)
+			RebuildScriptCaches (36ms)
+			SetupLoadedEditorAssemblies (344ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (166ms)
+				InitializePlatformSupportModulesInManaged (71ms)
 				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (94ms)
+				RefreshPlugins (103ms)
 				BeforeProcessingInitializeOnLoad (1ms)
-				ProcessInitializeOnLoadAttributes (103ms)
-				ProcessInitializeOnLoadMethodAttributes (48ms)
+				ProcessInitializeOnLoadAttributes (115ms)
+				ProcessInitializeOnLoadMethodAttributes (53ms)
 				AfterProcessingInitializeOnLoad (0ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
 			AwakeInstancesAfterBackupRestoration (0ms)
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.879780 seconds.
-Android Extension - Scanning For ADB Devices 4649 ms
+Registered in 0.006562 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\Users\bardo\OneDrive\Documents\s2-project\Fpt Unity\CatchTheUniverse\CathTheUniverseGame\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\bardo\OneDrive\Documents\s2-project\Fpt Unity\CatchTheUniverse\CathTheUniverseGame\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Native extension for iOS target not found
+Native extension for Android target not found
+Refreshing native plugins compatible for Editor in 99.41 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.434 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1435ms)
+		BeginReloadAssembly (232ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (6ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (132ms)
+		EndReloadAssembly (1075ms)
+			LoadAssemblies (111ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (289ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (99ms)
+			SetupLoadedEditorAssemblies (523ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (26ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (99ms)
+				BeforeProcessingInitializeOnLoad (106ms)
+				ProcessInitializeOnLoadAttributes (241ms)
+				ProcessInitializeOnLoadMethodAttributes (44ms)
+				AfterProcessingInitializeOnLoad (6ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (5ms)
+Platform modules already initialized, skipping
+========================================================================
+Worker process is ready to serve import requests
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.11 seconds
+Refreshing native plugins compatible for Editor in 1.47 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 4116 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 38 unused Assets / (55.5 KB). Loaded Objects now: 4580.
+Memory consumption went from 158.3 MB to 158.2 MB.
+Total: 5.388500 ms (FindLiveObjects: 0.533900 ms CreateObjectMapping: 0.270800 ms MarkObjects: 4.380000 ms  DeleteObjects: 0.202000 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 846111.551240 seconds.
+  path: Assets/StreamingAssets
+  artifactKey: Guid(e15e2afe3c34ab6409e7984a002bfc33) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/StreamingAssets using Guid(e15e2afe3c34ab6409e7984a002bfc33) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0367c9fc93feeda986b3f153f567f047') in 0.017959 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 33.580199 seconds.
+  path: Assets/SpellBookPreface
+  artifactKey: Guid(12fbafd7478728547af9ea5ed98bd92b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SpellBookPreface using Guid(12fbafd7478728547af9ea5ed98bd92b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e20ecda65124ae36320d7856b1b6ad3b') in 0.009731 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.102850 seconds.
+  path: Assets/SpellBookPreface/ReadMe.txt
+  artifactKey: Guid(1eca76bb2bb221c49b84353efcc80634) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SpellBookPreface/ReadMe.txt using Guid(1eca76bb2bb221c49b84353efcc80634) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '45cbd524f673c22664dbaea14cc3142c') in 0.033508 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 7.538729 seconds.
+  path: Assets/SpellBookPreface/SpellBookPreface_png
+  artifactKey: Guid(389c9d192a6b31b48bd48f7ff56c0b4f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SpellBookPreface/SpellBookPreface_png using Guid(389c9d192a6b31b48bd48f7ff56c0b4f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ba8c37e5f08aec2d9eca00517df87679') in 0.008071 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.021011 seconds.
+  path: Assets/SpellBookPreface/SpellBookPreface_png/SpellBookPreface_01.png
+  artifactKey: Guid(495b165e4f96ef14fb23cd71fa625a47) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SpellBookPreface/SpellBookPreface_png/SpellBookPreface_01.png using Guid(495b165e4f96ef14fb23cd71fa625a47) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '766a2a3012dcfdaa18e48ea0e3838145') in 0.125186 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000035 seconds.
+  path: Assets/SpellBookPreface/SpellBookPreface_png/SpellBookPreface_17.PNG
+  artifactKey: Guid(42f6c722ead369b4b934a116b4324a4d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SpellBookPreface/SpellBookPreface_png/SpellBookPreface_17.PNG using Guid(42f6c722ead369b4b934a116b4324a4d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fc3e3430d74213089d60883721e881c6') in 0.033310 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000061 seconds.
+  path: Assets/SpellBookPreface/SpellBookPreface_png/SpellBookPreface_23.PNG
+  artifactKey: Guid(5d1d51ce1560d254db60f4cb6c26cdaf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SpellBookPreface/SpellBookPreface_png/SpellBookPreface_23.PNG using Guid(5d1d51ce1560d254db60f4cb6c26cdaf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8e6b16739898c23fc99b20106fa6334c') in 0.034644 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000043 seconds.
+  path: Assets/SpellBookPreface/SpellBookPreface_png/SpellBookPreface_10.PNG
+  artifactKey: Guid(f41413a91e8d778458b926d8cf1d1c9a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SpellBookPreface/SpellBookPreface_png/SpellBookPreface_10.PNG using Guid(f41413a91e8d778458b926d8cf1d1c9a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '278a577e0d9c672cec0acb25cca13cfe') in 0.034936 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000033 seconds.
+  path: Assets/SpellBookPreface/SpellBookPreface_png/SpellBookPreface_11.png
+  artifactKey: Guid(43932b67c71640244a46b122a525ad3a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SpellBookPreface/SpellBookPreface_png/SpellBookPreface_11.png using Guid(43932b67c71640244a46b122a525ad3a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8f45f82e145f887c3c01cdfa2c0ad24d') in 0.035210 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000035 seconds.
+  path: Assets/SpellBookPreface/SpellBookPreface_png/SpellBookPreface_14.PNG
+  artifactKey: Guid(6341005da49c17b4ebc0bd19107f0945) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SpellBookPreface/SpellBookPreface_png/SpellBookPreface_14.PNG using Guid(6341005da49c17b4ebc0bd19107f0945) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5770c0e2b52c1623c1410956b1fcd040') in 0.032909 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000047 seconds.
+  path: Assets/SpellBookPreface/SpellBookPreface_png/SpellBookPreface_03.PNG
+  artifactKey: Guid(d70dd1b9c6ae54448923db5c4924edd5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SpellBookPreface/SpellBookPreface_png/SpellBookPreface_03.PNG using Guid(d70dd1b9c6ae54448923db5c4924edd5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '95ba0cdc9ca9d7a6fea5f1d9a6ce1b3b') in 0.044480 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000053 seconds.
+  path: Assets/SpellBookPreface/SpellBookPreface_png/SpellBookPreface_08.PNG
+  artifactKey: Guid(6becf50c5d862904cacebdac87f15502) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SpellBookPreface/SpellBookPreface_png/SpellBookPreface_08.PNG using Guid(6becf50c5d862904cacebdac87f15502) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7b960a57e84bd1be37969904257d8d9b') in 0.033260 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000076 seconds.
+  path: Assets/SpellBookPreface/SpellBookPreface_png/SpellBookPreface_06.PNG
+  artifactKey: Guid(ff42a689ad961fd4b9da0a00643acce7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SpellBookPreface/SpellBookPreface_png/SpellBookPreface_06.PNG using Guid(ff42a689ad961fd4b9da0a00643acce7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '17ddae339301fbf915658c167c0d9cf5') in 0.031414 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000071 seconds.
+  path: Assets/SpellBookPreface/SpellBookPreface_png/SpellBookPreface_13.png
+  artifactKey: Guid(caf7b2475733a6e4480688688406916d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SpellBookPreface/SpellBookPreface_png/SpellBookPreface_13.png using Guid(caf7b2475733a6e4480688688406916d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a2003d7afa5eba95557f2e51656a9219') in 0.036206 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000048 seconds.
+  path: Assets/SpellBookPreface/SpellBookPreface_png/SpellBookPreface_16.PNG
+  artifactKey: Guid(1667955fff4e1a141a5a99428fc35767) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SpellBookPreface/SpellBookPreface_png/SpellBookPreface_16.PNG using Guid(1667955fff4e1a141a5a99428fc35767) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '653020188b833a64f4b01dee679647ff') in 0.033415 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000045 seconds.
+  path: Assets/SpellBookPreface/SpellBookPreface_png/SpellBookPreface_15.PNG
+  artifactKey: Guid(ac6ad492dd4743a47ab4da7cf07f6a95) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SpellBookPreface/SpellBookPreface_png/SpellBookPreface_15.PNG using Guid(ac6ad492dd4743a47ab4da7cf07f6a95) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'be476ddd904cdcfa6bfab2f908e1d54b') in 0.032191 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000041 seconds.
+  path: Assets/SpellBookPreface/SpellBookPreface_png/SpellBookPreface_12.PNG
+  artifactKey: Guid(411f88b287eb8504aa08edb04c1443c6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SpellBookPreface/SpellBookPreface_png/SpellBookPreface_12.PNG using Guid(411f88b287eb8504aa08edb04c1443c6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '27eee084f36cf8292ae05acb8a97880d') in 0.031868 seconds 
+Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
+AssetImportWorker is now disconnected from the server
+Process exiting
+Exiting without the bug reporter. Application will terminate with return code 0
