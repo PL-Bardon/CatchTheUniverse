@@ -53,6 +53,7 @@ ScriptsOnlyBuild:
     - TMPro.TMP_Settings
     - TMPro.TMP_SpriteAsset
     - TMPro.TMP_StyleSheet
+    - TMPro.TMP_SubMeshUI
     - TMPro.TextMeshProUGUI
     UnityEditor.TestRunner.dll:
     - UnityEditor.TestTools.TestRunner.Api.CallbacksHolder
@@ -68,6 +69,7 @@ ScriptsOnlyBuild:
     - UnityEngine.UI.GridLayoutGroup
     - UnityEngine.UI.HorizontalLayoutGroup
     - UnityEngine.UI.Image
+    - UnityEngine.UI.LayoutElement
     - UnityEngine.UI.Slider
     - UnityEngine.UI.Text
     - UnityEngine.UI.VerticalLayoutGroup
@@ -201,6 +203,8 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 1632}
     - Class: 114
+      Script: {instanceID: 1776}
+    - Class: 114
       Script: {instanceID: 2540}
     - Class: 114
       Script: {instanceID: 2872}
@@ -220,6 +224,8 @@ ScriptsOnlyBuild:
       Script: {instanceID: 4170}
     - Class: 114
       Script: {instanceID: 4530}
+    - Class: 114
+      Script: {instanceID: 5000}
     - Class: 114
       Script: {instanceID: 5100}
     - Class: 114
@@ -1512,4 +1518,4 @@ ScriptsOnlyBuild:
   scenePathNames:
   - Assets/Scenes/StartGame.unity
   - Assets/Scenes/MySpaceShipGame.unity
-  playerPath: C:/Users/bardo/Downloads/TEST/CathTheUniverse.exe
+  playerPath: C:/Users/bardo/Downloads/PRU_PRESENTATION/CathTheUniverse.exe
